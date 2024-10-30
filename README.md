@@ -100,4 +100,3 @@ Feel free to submit issues or pull requests to enhance deus.py!
 ## License
 
 deus.py is open-source and distributed under the MIT License.
-```
